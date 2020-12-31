@@ -1,0 +1,13 @@
+main: me.johnny.simplestars.SimpleStars
+version: 1.0
+name: SimpleStars
+
+commands:
+  curlevel:
+    aliases: [mylevel, viewlevel, level]
+    description: Views a users level with EXP.
+    usage: /curlevel | /curlevel <player>
+  leveltop:
+    aliases: [levelstop, toplevels]
+    description: Views the top users' levels of the server.
+    usage: /leveltop
